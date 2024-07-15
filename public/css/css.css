@@ -1,0 +1,652 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.header {
+    background: url('../images/Bg/Bg_Picture.jpg') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 1200px;
+}
+
+.main-title {
+    font-size: 58px; /* เปลี่ยนขนาดฟอนต์ตามต้องการ */
+    line-height: 1.2; /* ปรับบรรทัดให้พอดี */
+    padding: 20px;
+    color: wheat;
+}
+
+.sub-title {
+    margin: 0;
+    font-size: 50px;
+    line-height: 1.2;
+    padding: 20px;
+    background: linear-gradient(to right, #00ee1c, #ffffff); /* ไล่สีจากเขียวไปน้ำเงิน */
+    -webkit-background-clip: text; /* ใช้ background clip สำหรับข้อความ */
+    -webkit-text-fill-color: transparent; /* ทำให้ข้อความโปร่งใสเพื่อให้แสดงการไล่สี */
+}
+
+
+/* Start 24 mar2023 */
+.details {
+    display: flex;
+    align-items: center;
+    font-size: 24px; /* ขนาดตัวหนาตัวใหญ่เป็น 24px */
+    margin-bottom: 30px;
+}
+
+.details .left {
+    flex: 1;
+    text-align: left;
+    position: relative;
+}
+
+.details .left span.date {
+    display: block;
+    font-weight: bold;
+    font-size: 13px; /* ขนาดตัวเล็กของ "MAR 2023" เป็น 13px */
+}
+
+.date .day {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.date .month-year {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.time {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.details .left span.time {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    color: black;
+    font-size: 16px; /* ขนาดตัวหนาตัวใหญ่ของ "13:00-19:00 น." เป็น 24px */
+    background-color: white; /* พื้นหลังของข้อความ */
+    padding: 5px 10px; /* ขอบข้อความ */
+    border-radius: 20px; /* มุมโค้งขอบข้อความ */
+    z-index: 1;
+}
+
+.details .divider {
+    width: 5px;
+    height: 80px;
+    background: #02e428;
+    margin: 0 20px;
+}
+
+.details .right {
+    flex: 2;
+    text-align: left;
+}
+
+.details .right span {
+    display: block;
+    font-size: 24px; /* ขนาดตัวหนาตัวใหญ่ของข้อความทางด้านขวาเป็น 24px */
+    color: #ffffff; /* สีข้อความเป็นขาว */
+}
+
+
+/* เหนือกว่า ด้วยโซลูชัน */
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #ffffff; /* สีขาวสำหรับข้อความหลัก */
+}
+.highlight {
+    font-weight: bold; /* ยังคงเป็นตัวหนา */
+    color: #a7caca; /* สีฟ้าเทา */
+}
+.highlight-down {
+    font-weight: normal;
+    color: #969696; /* สีฟ้าเทา */
+}
+.note {
+    font-size: 15px;
+    color: #a7caca; /* สีฟ้าเทา */
+    font-weight: normal; /* ตัวบาง */
+}
+
+.details {
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgb(185, 185, 185);
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.partners img {
+    height: 40px;
+    margin: 0 10px;
+}
+
+.registration {
+    background: linear-gradient(to right, #101757, #1c1c3d);
+    padding: 30px;
+    text-align: center;
+    margin: 0 auto; /* จัดกึ่งกลาง */
+    height: auto; /* กำหนดความสูงให้เป็น auto */
+}
+
+.register-button {
+    background-color: #00b14f;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.register-button:hover {
+    border-color: #3498db;
+}
+
+.content {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.highlight-content {
+    font-weight: bold;
+    color: #02ab1b;
+}
+
+.content h2 {
+    color: #2e3995;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.content ul li::before {
+    content: '•';
+    color: #00b14f;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.container_MainSpeakers {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.headerMainSpeakers {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333333;
+}
+
+/* mainSpeakers */
+.speakers {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.speaker {
+    flex-basis: calc(33.33% - 20px); /* 20px เพื่อความเหมาะสมของช่องว่างระหว่างรายการ */
+    max-width: calc(33.33% - 20px);
+    margin: 10px; /* กำหนดระยะห่างระหว่างรายการ */
+    text-align: center; /* จัดการข้อความตรงกลาง */
+}
+
+.speaker img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.speaker h2 {
+    font-size: 20px;
+    color: #0d0da9;
+    margin: 10px 0 5px;
+}
+
+.speaker h3 {
+    font-size: 16px;
+    color: #2842d6;
+    margin: 0 0 10px;
+}
+
+.speaker p {
+    font-size: 16px;
+    color: #777;
+    margin: 0;
+}
+
+/* Schedule css */
+.schedule-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-header {
+    text-align: left; /* ทำให้ส่วนหัวอยู่ทางซ้าย */
+    margin-bottom: 20px;
+}
+
+.schedule-header h1 {
+    font-size: 24px;
+    color: #0404f0;
+    font-weight: bold;
+    border-left: 3px solid #020524; /* เส้นขีดแนวตั้ง */
+    padding-left: 10px; /* เพิ่มช่องว่างระหว่างเส้นขีดกับข้อความ */
+}
+
+.schedule-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.schedule-item {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* สำหรับการจัดเส้นขีด */
+}
+
+.schedule-time {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px 10px; /* ลด padding เพื่อให้สีพื้นหลังพอดีกับข้อความ */
+    display: inline-block; /* ทำให้สีพื้นหลังพอดีกับข้อความ */
+    background-color: #00b14f; /* สีพื้นหลังเขียว */
+    border-radius: 20px; /* เพิ่มมุมโค้งเพื่อความสวยงาม */
+}
+
+.schedule-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.schedule-details li {
+    padding-left: 20px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.schedule-details li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #00b14f;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+ /* ณ ห้องเเกรนด์บอลรูม */
+ .container_Location {
+    background-color: #003399;
+    color: white;
+    border-radius: 10px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    gap: 20px; /* เพิ่มช่องว่างระหว่างข้อความและรูปภาพ */
+}
+
+.container_Location img {
+    border-radius: 10px;
+    width: 250px;
+    height: auto;
+    flex-shrink: 0; /* ไม่ให้รูปภาพหดตัว */
+}
+
+.content_Location {
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+    padding-right: 20px; /* เพิ่ม padding ทางขวาเพื่อสร้างช่องว่างจากรูปภาพ */
+}
+
+.content_Location h1 {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.content_Location p {
+    margin: 5px 0;
+}
+
+.button_Location {
+    background-color: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.container_Product {
+    background-color: white;
+    border-radius: 15px;
+    max-width: 1200px; /* ปรับให้เป็นขอบเต็มจอ */
+    margin: 0 auto; /* จัดให้อยู่ตรงกลาง */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.header_Product {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(16, 16, 214);
+    text-align: left;
+}
+
+.prizes_Product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid; /* เปลี่ยนสีขอบแบบผสม */
+    border-image: linear-gradient(to bottom, rgba(86, 248, 102, 0.2) 0%, rgba(86, 248, 102, 1) 100%);
+    border-image-slice: 1;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.prize_Product {
+    text-align: center;
+    max-width: 200px;
+}
+
+.prize_product_text{
+    font-size : 18px;
+    font-weight: bold;
+}
+
+.prize_product_text_sub{
+    font-size : 18px;
+    color: gray;
+}
+
+.prize_product_text_sub_2{
+    text-align: left;
+    font-size : 14px;
+    color: gray;
+}
+
+.prize_Product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.prize_Product div {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.registration_Product {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.note_Product {
+    color: #373737;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.button_Product {
+    background-color: #00c853;
+    color: white;
+    padding: 12px 60px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.button_Product:hover {
+    background-color: #00b342;
+}
+
+.contact_Product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #666;
+}
+
+.contact_Product i {
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header-content {
+        max-width: 100%;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .event-details .date,
+    .event-details .time,
+    .event-details .location {
+        font-size: 12px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .details {
+        font-size: 12px;
+    }
+
+    .content h2 {
+        font-size: 18px;
+    }
+
+    .content ul li {
+        background-size: 20px;
+        padding-left: 26px;
+        font-size: 12px;
+    }
+
+    .speakers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speaker {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .schedule-container {
+        padding: 10px;
+    }
+
+    .schedule-header h1 {
+        font-size: 20px;
+    }
+
+    .schedule-time {
+        font-size: 14px;
+    }
+
+    .schedule-details {
+        font-size: 12px;
+    }
+
+    .container_Location {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .container_Location img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .content_Location {
+        margin: 0;
+    }
+
+    .content_Location h1 {
+        font-size: 1.5em;
+    }
+
+    .content_Location p {
+        margin: 10px 0;
+    }
+
+    .button_Location {
+        margin-top: 20px;
+    }
+
+    .container_Product {
+        max-width: 100%;
+    }
+
+    .header_Product {
+        text-align: center;
+    }
+
+    .prizes_Product {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .prize_Product {
+        margin-bottom: 20px;
+    }
+
+    .prize_Product img {
+        max-width: 100%;
+    }
+
+    .prize_Product div {
+        font-size: 1em;
+    }
+
+    .registration_Product {
+        font-size: 1.2em;
+    }
+
+    .note_Product {
+        font-size: 0.8em;
+    }
+
+    .button_Product {
+        padding: 12px 40px;
+    }
+
+    .contact_Product {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 0.9em;
+    }
+
+    .contact_Product i {
+        margin-bottom: 10px;
+    }
+}
