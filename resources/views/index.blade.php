@@ -55,6 +55,8 @@
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdf-Px9QA76gCH1byd_sV1aTEsOJkd_bGDPHt8_tqhDKBhGMw/viewform?usp=send_form"
                 class="register-button">ลงทะเบียน</a>
         </div>
+        <!-- Registration Section -->
+
         <!-- Content Section -->
         <div class="content">
             <h2>พบกับกุญแจสำคัญของ <span class="highlight-content">"Healthcare"</span> แห่งอนาคตได้ที่งานสัมมนานี้</h2>
@@ -67,6 +69,8 @@
                 <li>และอื่นๆ ที่จะช่วยให้โรงพยาบาลสามารถบริหารงานได้อย่างมีประสิทธิภาพ</li>
             </ul>
         </div>
+        <!-- Content Section -->
+
         <!-- Main Speakers Section -->
         <div class="container_MainSpeakers">
             <div class="header_MainSpeakers">
@@ -114,6 +118,8 @@
                 </div>
             </div>
         </div>
+        <!-- Main Speakers Section -->
+
         <!-- Schedule Section -->
         <div class="schedule-container">
             <div class="schedule-header">
@@ -142,6 +148,8 @@
                 </div>
             </div>
         </div>
+        <!-- Schedule Section -->
+        
         <!-- New Section: Location and Prizes -->
         <div class="location-and-prizes">
             <div class="container_Location">
