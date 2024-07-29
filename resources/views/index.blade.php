@@ -21,7 +21,7 @@
         <!-- Header Section -->
         <div class="header">
             <div class="header-content">
-                <h1 class="main-title" style="color: white; font-size: 48px;">INNOVATION <br> & SECURITY</h1>
+                <h1 class="main-title">INNOVATION <br> & SECURITY</h1>
                 <h2 class="sub-title">For <br> Future Healthcare</h2>
                 <div class="details">
                     <div class="left">
@@ -196,6 +196,8 @@
                     <span class="highlight-down">ติดต่อสอบถามรายละเอียดเพิ่มเติม <i class="fas fa-phone-alt"></i> <span style="color: blue;">คุณนันทพร ทองเพชร 084-118-4868</span></span>
                 </div>
             </div>
+        </div>
+    </div>
 </body>
 
 </html>
